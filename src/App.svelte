@@ -20,7 +20,11 @@
       
     </div>
   </nav>
-    
+  <div id="middle">
+    <h1 class="heading">Speed Test</h1>
+    <p>Worry! Why your Internet running slow?<br>Want to know your Internet Download Speed?<br>Want to know your Internet Upload Speed?<br><br>You will find the Answers of these Questions on SPEED.com</p>     
+  </div>
+  <button class="btn">Take Test</button>   
 </main>
 
 <style>
@@ -52,4 +56,48 @@
     height: 80px;
   }
 
+ h1 {
+    font-size: 120px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+    margin-top: 120px;
+    margin-left: 90px;
+    color: cyan;
+  }
+
+  p {
+    display: inline-block;
+    margin-left: 90px;
+    margin-top: 15px;
+    width: 784px;
+    font-size: 24px;
+    font-family: 'PT Serif', serif;
+    color: black;
+  }
+
+  .btn {
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(206, 147, 204);
+    margin-left: -511px;
+    margin-top: 180px;
+    border-color: black;
+    border-radius: 20px;
+    width: 250px;
+    color: black;
+  }
+
+  #middle {
+    display: inline-block;
+    text-align: center;
+  }
+
+  .btn:hover {
+    color: red;
+    background-color: orange;
+    font-weight: bold;
+    height: 100px;
+  }
+  
 </style>
